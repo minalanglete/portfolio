@@ -1,0 +1,61 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+h1 {
+  font-family: "Limelight", cursive;
+  text-align: center;
+  color: #ee0a78;
+}
+h2 {
+  font-family: "Righteous", cursive;
+}
+
+.logo {
+  max-width: 100px;
+  margin-left: 10px;
+}
+nav {
+  font-family: "Righteous", cursive;
+  text-align: right;
+  color: #e96ba8;
+  font-size: 30px;
+  padding-left: 20px;
+  margin-right: 30px;
+  position: fixed;
+  top: 10px;
+  right: 0px;
+}
+.nav {
+  padding-left: 20px;
+}
+.nav:visited,
+.nav:link,
+.nav:active {
+  color: #e96ba8;
+}
+a {
+  text-decoration: none;
+}
+.headerimg {
+  max-width: 100%;
+  padding-top: 20px;
+}
+
+.mywork {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+footer {
+  background-image: linear-gradient(#e96ba8, #ff8101);
+  height: 500px;
+  text-align: center;
+  font-family: "Limelight", cursive;
+  font-size: 20px;
+  color: #ffff;
+}
+.fab {
+  color: #ffff;
+  padding: 10px;
+}

@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Mina Langlete</title>
+    <title>Exam 1 Project</title>
     <meta
       name="description"
       content="My portfolio website showing my work as a developer"
     />
-
+    <link rel="shortcut icon" href="img/favicon.jpg" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Limelight&family=Quicksand:wght@300;400;700&family=Righteous&display=swap"
@@ -29,24 +29,79 @@
       <input type="checkbox" id="hamburger-menu" />
       <nav>
         <a href="index.html" id="current" class="nav">Home</a>
-        <a href="about.html" class="nav">Portfolio</a>
+        <a href="portfolio.html" class="nav">Portfolio</a>
         <a href="about.html" class="nav">About</a>
       </nav>
-      <img class="headerimg" src="img/header-img.png" />
     </header>
 
     <main>
-      <h1>Welcome to my PORTFOLIO</h1>
-      <div class="mywork">
-        <h2>Cross-cours project</h2>
-        <h2>Semester project 1</h2>
-        <h2>Exam 1 project</h2>
+      <h1>Exam 1 Project</h1>
+      <div class="displayproject">
+        <h2 class="titleproject">- Miss Fitness Blog -</h2>
+        <button>View webpage</button>
+        <button>Go to GitHub</button>
+        <img
+          class="displayimg"
+          src="img/showsite-missfitness.png"
+          alt="Display Exam 1 Project on web and mobildevice"
+        />
+
+        <h2>Changes I have made on the project</h2>
+        <div class="changetext">
+          <h3>Loader</h3>
+          <p>
+            I added a loader on the pages while the user waits for the API to
+            load. Added some circles with matching colour for the site. This
+            helps the user to understand that the data are loading and will be
+            displayed when the data are ready.
+          </p>
+
+          <h3>Category</h3>
+
+          <p>
+            I added a category filter on the blog post site. This helps the user
+            to show the different post sorted by categories.
+          </p>
+
+          <h3>Header Image</h3>
+
+          <p>
+            I have only kept my header image on the homepage. This is because
+            when the user click on the different pages the user do not need to
+            scroll through the header image every time.
+          </p>
+
+          <h3>Stylesheet Fonts</h3>
+
+          <p>
+            I had multiply stylesheet for the fonts from Google fonts. So to
+            prevent the browser to load through them all I collected them
+            together to help the browser load more easily.
+          </p>
+
+          <h3>Title</h3>
+
+          <p>
+            I did not have a unique title on the specific blogpost pages. I
+            added a code in the JavaScript to fix this problem. Now the user can
+            se the title of the blogpost at the top of the browser and every
+            page has a unique title.
+          </p>
+
+          <h3>H1</h3>
+
+          <p>
+            At every page I had the same h1. So to get a unique h1 on every page
+            I changes this by fixing the code in the html to get h1 on the right
+            title to get a unique h1.
+          </p>
+        </div>
       </div>
     </main>
 
     <footer>
       <div class="sosialmedia">
-        <img src="img/footer.png" />
+        <img class="footerimg" src="img/footer.png" />
         <a href="https://www.instagram.com/">
           <i class="fab fa-instagram fa-2x"></i>
         </a>

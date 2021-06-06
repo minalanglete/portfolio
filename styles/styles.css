@@ -24,7 +24,7 @@ h3 {
 nav {
   font-family: "Righteous", cursive;
   text-align: right;
-  color: #e96ba8;
+  color: #e66aa5;
   font-size: 30px;
   padding-left: 20px;
   padding-top: 10px;
@@ -36,7 +36,7 @@ nav {
 .nav:visited,
 .nav:link,
 .nav:active {
-  color: #e96ba8;
+  color: #e66aa5;
 }
 a {
   text-decoration: none;

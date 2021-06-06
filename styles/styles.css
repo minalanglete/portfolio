@@ -199,6 +199,13 @@ button:hover {
 .changetext p {
   margin-top: 2px;
 }
+.hovercolor:hover {
+  color: #ff8101;
+  font-weight: bold;
+}
+.colourarrow:hover {
+  color: #e96ba8;
+}
 /*-----------media queries-----------------------------------------------------------------*/
 
 @media only screen and (max-width: 1000px) {
@@ -285,5 +292,32 @@ button:hover {
     max-width: 250px;
     padding-left: 20px;
     padding-bottom: 20px;
+  }
+  .hovercolor {
+    background: linear-gradient(45deg, transparent 5%, #ff8101 5%);
+    color: #ffff;
+    padding: 5px 10px 5px 10px;
+    max-width: 150px;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .colourarrow {
+    color: #ffff;
+  }
+  .styletitle {
+    padding-left: 20px;
+  }
+  .mywork h2 {
+    margin-top: -78px;
+    opacity: 1;
+  }
+  .white {
+    color: #ffff;
+  }
+  .examtitle {
+    padding: 20px 0px 20px 0px;
+  }
+  .mywork p {
+    display: none;
   }
 }

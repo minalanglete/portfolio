@@ -180,6 +180,7 @@ button {
   box-shadow: 6px 0px 0px #e96ba8;
   font-family: "Quicksand", sans-serif;
   font-weight: 500;
+  font-size: 18px;
 }
 button:hover {
   background-image: linear-gradient(45deg, transparent 5%, #ff8101 5%, #e96ba8);
